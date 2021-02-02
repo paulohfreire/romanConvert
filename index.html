@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>Conversor de número romano</title>
+  </head>
+
+  <body>
+    <h1>Conversor de algarismo romano para numero cardinal</h1>
+    <p>Insira a seguir o algarismo romano e clique no botão converter:</p>
+    <div class="components">
+      <input type="text" id="a" value="" /><br />
+
+      <button
+        class="myButton"
+        onclick="romanConvert(document.getElementById('a').value)"
+      >
+        Converter
+      </button>
+      <p id="resultado"></p>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
